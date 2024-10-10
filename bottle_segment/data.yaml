@@ -1,0 +1,14 @@
+path: G:\Python\demosegment\bottle_segment\data.yaml
+train: G:\Pyhton\demosegment\bottle_segment\test\images
+val: G:\Pyhton\demosegment\bottle_segment\test\images
+test: G:\Pyhton\demosegment\bottle_segment\test\images
+
+nc: 1
+names: ['bottle']
+
+roboflow:
+  workspace: supervassa
+  project: bottle_segment-vawjt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/supervassa/bottle_segment-vawjt/dataset/1
